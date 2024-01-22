@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/photo_2024-01-22_21-51-22.jpg');
+    background-repeat: no-repeat;
+}
+.container{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 63px;
+    left: 51px;
+    animation: 15s ulugbek infinite;
+}
+
+
+@keyframes ulugbek{
+    0%{
+        top: 63px;
+        left: 51px;
+    }
+    10%{
+        top: 63px;
+        left: 265px;
+    }
+    20%{
+        top: 300px;
+        left: 265px;
+    }
+    30%{
+        top: 300px;
+        left: 840px;
+    }
+    40%{
+        top: 430px;
+        left: 830px;
+    }
+    50%{
+        top: 430px;
+        left: 520px;
+    }
+    60%{
+        top: 385px;
+        left: 520px;
+    }
+    70%{
+        top: 385px;
+        left: 265px;
+    }
+    80%{
+        top: 270px;
+        left: 140px;
+    }
+    90%{
+        top: 290px;
+        left: 51px;
+    }
+}
